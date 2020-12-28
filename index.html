@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <meta name="description" content="Snake">
+</head>
+
+<body>
+    <div id="score">
+        <p>Score:</p>
+        <p id="scoreCount">0</p>
+    </div>
+    <div id="canvas-container">
+        <canvas id="gameCanvas" width="512" height="512"></canvas>
+    </div>
+    <style>
+        #score {
+            text-align: center;
+            width: 100%;
+            background-color: wheat;
+        }
+
+        #canvas-container {
+            width: 100%;
+            text-align: center;
+        }
+
+        #gameCanvas {
+            display: inline;
+            border: 4px solid black;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+
+</html>
